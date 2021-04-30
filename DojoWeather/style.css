@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+}
+.cookie{
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    border: solid black;
+    align-items: center;
+}
+.cookie p{
+    padding: 0px 25px;
+}
+.cookie img{
+    margin-left: 10px;
+}
+.cookie button{
+    background-color: rgb(142, 185, 250);
+    font-weight: bold;
+    border: solid black;
+    box-shadow: black 5px 5px 0px 1px;
+    width: 125px;
+    height: 35px;
+    margin: 30px;
+}
+.cookie span{
+    font-weight: bold;
+    font-size: x-large;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(114, 155, 216);
+    color: white;
+    height: 100px;
+}
+.navbar h1{
+    font-size: 350%;
+}
+select{
+    border: solid black;
+}
+.margin{
+    margin: 0px 200px;
+}
+.city{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid black;
+    padding: 20px 0px;
+    min-width: 960px
+}
+.city h1{
+    font-weight: lighter;
+
+}
+.days{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.days img{
+    width: 150px;
+    margin: 30px;
+    border-radius: 50%;
+}
+.days h2{
+    margin-top: 20px;
+}
+.days p{
+    margin-bottom: 30px;
+}
+.days h3{
+    margin-bottom: 15px;
+    color: red;
+}
+.days span{
+    margin-left: 30px;
+    color: blue;
+}
+.today{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+.tomorrow{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+}
+.friday{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+}
+.saturday{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <div class="cotainer">
+        <div class="navbar">
+            <h1>DojoWeather</h1>
+            <h2 onclick="loading()">Burbank</h2>
+            <h2 onclick="loading()">Chicago</h2>
+            <h2 onclick="loading()">Dallas</h2>
+        </div>
+        <div class="margin">
+            <div class="city">
+                <h1>San Jose</h1>
+                <p>show temperature in
+                    <select name="degrees" id="options">
+                        <option class="Cel" value="C">&deg;C</option>
+                        <option onclick="C2F()" class="Fah" value="F">&deg;F</option>
+                    </select>
+                </p>
+            </div>
+            <div class="days">
+                <div class="today">
+                    <h2>Today</h2>
+                    <img src="./assets/some_rain.png" alt="raincloud">
+                    <p>some rain</p>
+                    <h3>23.9&deg;<span class="temp">18.3&deg;</span></h3>
+                </div>
+                <div class="tomorrow">
+                    <h2>Tomorrow</h2>
+                    <img src="./assets/some_sun.png" alt="sun">
+                    <p>some sun</p>
+                    <h3>26.7&deg;<span class="temp">18.9&deg;</span></h3>
+                </div>
+                <div class="friday">
+                    <h2>Friday</h2>
+                    <img src="./assets/some_clouds.png" alt="clouds">
+                    <p>some clouds</p>
+                    <h3>20.6&deg;<span class="temp">16.1&deg;</span></h3>
+                </div>
+                <div class="saturday">
+                    <h2>Saturday</h2>
+                    <img src="./assets/some_sun.png" alt="clouds">
+                    <p>some clouds</p>
+                    <h3>25.6&deg;<span class="temp">21.1&deg;</span></h3>
+                </div>
+            </div>
+            <div class="cookie">
+                <img src="./assets/cookie.png" alt="cookie">
+                <p><span>Stop! Cookie time</span><br>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+                <button onclick="accept()">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
